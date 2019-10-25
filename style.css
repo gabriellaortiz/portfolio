@@ -2,3 +2,7 @@
 	width: 20%;
 	padding: 20px;	
 }
+
+.img_post:hover {
+    -webkit-filter: brightness(70%);
+}
