@@ -54,7 +54,7 @@ var fetchLatestTumblrPost = function() {
           break;
       }
 
-      $('#weblog').draggable({stack: "div"});
+      $('.img_post').draggable({stack: "div"});
 
       // Append this post HTML to the container, can be any jQuery selector
       $("#weblog").append(post);
