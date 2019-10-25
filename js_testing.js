@@ -9,7 +9,6 @@ var fetchLatestTumblrPost = function() {
     // For each post in the returned data
     $.each(data.posts, function(i, posts) {
       var post = "", postElement;
-
       // The post variable holds the HTML that will be placed into the page
       // Use the relevant post variables for each type from the docs
       switch (this.type) {
