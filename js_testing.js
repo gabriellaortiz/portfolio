@@ -1,6 +1,5 @@
 // Docs for the Tumblr API v1 are here: http://www.tumblr.com/docs/en/api/v1#api_read
 // Requires jQuery
-
 // Create a function that will fetch n latest Tumblr posts and format them for placement into a page
 var fetchLatestTumblrPost = function() {
 
@@ -55,6 +54,8 @@ var fetchLatestTumblrPost = function() {
         case "answer":
           break;
       }
+
+      $('#weblog').draggable({stack: "div"});
 
       // Append this post HTML to the container, can be any jQuery selector
       $("#weblog").append(post);
