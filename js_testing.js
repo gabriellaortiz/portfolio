@@ -4,7 +4,7 @@
 var fetchLatestTumblrPost = function() {
 
   // Fetch the feed with Tumblr API v1
-  $.getJSON("http://inspografik.tumblr.com/api/read/json?num=10&callback=?", function(data) {
+  $.getJSON("https://inspografik.tumblr.com/api/read/json?num=10&callback=?", function(data) {
 
     // For each post in the returned data
     $.each(data.posts, function(i, posts) {
@@ -53,11 +53,11 @@ var fetchLatestTumblrPost = function() {
         case "answer":
           break;
       }
-
-      $('.img_post').draggable({stack: "div"});
-
       // Append this post HTML to the container, can be any jQuery selector
       $("#weblog").append(post);
+
+      // Make individual images draggable
+      $('.img_post').draggable({stack: "div"});
 
       // Here I'm substituting the tumblr audio player with audiojs
       // This section of code might(?) be able to be removed because of the new HTML5 audio player
