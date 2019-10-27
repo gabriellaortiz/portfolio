@@ -4,7 +4,7 @@
 var fetchLatestTumblrPost = function() {
 
   // Fetch the feed with Tumblr API v1
-  $.getJSON("https://inspografik.tumblr.com/api/read/json?num=10&callback=?", function(data) {
+  $.getJSON("https://gabriella-ortiz.tumblr.com/api/read/json?num=10&callback=?", function(data) {
 
     // For each post in the returned data
     $.each(data.posts, function(i, posts) {
@@ -26,7 +26,11 @@ var fetchLatestTumblrPost = function() {
           post = this["quote-text"];
           break;
         case "photo":
+          // post = "<div class='image_box'> <img class='img_post' src='" + this["photo-url-1280"] + "'> </div>";
+
+          // no div, just image blocks
           post = "<img class='img_post' src='" + this["photo-url-1280"] + "'>";
+
           // post = "<a href='" + this["url-with-slug"] + "'><img src='" + this["photo-url-1280"] + "'></a>";
           // if (this["photo-caption"]) {
           //   post += "<p>" + this["photo-caption"] + "</p>";
@@ -69,8 +73,25 @@ var fetchLatestTumblrPost = function() {
           swfLocation: "swf/audiojs.swf"
         });
       }
+
     });
   });
+      //   function getRandomPosition(element) {
+      //   var x = document.body.offsetHeight-element.clientHeight;
+      //   var y = document.body.offsetWidth-element.clientWidth;
+      //   var randomX = Math.floor(Math.random()*x);
+      //   var randomY = Math.floor(Math.random()*y);
+      //   return [randomX,randomY];
+      // }
+      // window.onload = function() {
+      //   var img_post = document.createElement('img_post');
+      //   img_post.setAttribute("style", "position:absolute;");
+      //   img_post.setAttribute("src", "some-image.jpg");
+      //   document.body.appendChild(img_post);
+      //   var xy = getRandomPosition(img_post);
+      //   img_post.style.top = xy[0] + 'px';
+      //   img_post.style.left = xy[1] + 'px';
+      // }
 };
 
 // If the container exists on this page then fetch the lastest posts
