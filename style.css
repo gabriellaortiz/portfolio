@@ -10,3 +10,22 @@
 /*.img_post:hover {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }*/
+
+@font-face {
+  font-family: primaryFont;
+  src: url(UniversLTStd.otf);
+}
+@font-face {
+  font-family: secondaryFont;
+  src: url(UniversLTStd-Bold.otf);
+}
+
+p {
+  font-family: primaryFont;
+  font-size: 12px;
+}
+
+h1 {
+  font-family: secondaryFont;
+  font-size: 12px;
+}
