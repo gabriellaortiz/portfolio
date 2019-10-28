@@ -12,20 +12,20 @@
 }*/
 
 @font-face {
-  font-family: primaryFont;
+  font-family: UniversStd;
   src: url(UniversLTStd.otf);
 }
 @font-face {
-  font-family: secondaryFont;
+  font-family: UniversBold;
   src: url(UniversLTStd-Bold.otf);
 }
 
 p {
-  font-family: primaryFont;
+  font-family: UniversStd;
   font-size: 12px;
 }
 
 h1 {
-  font-family: secondaryFont;
+  font-family: UniversBold;
   font-size: 12px;
 }
