@@ -76,6 +76,11 @@ var fetchLatestTumblrPost = function() {
 
     });
   });
+
+
+
+
+
       //   function getRandomPosition(element) {
       //   var x = document.body.offsetHeight-element.clientHeight;
       //   var y = document.body.offsetWidth-element.clientWidth;
@@ -93,6 +98,65 @@ var fetchLatestTumblrPost = function() {
       //   img_post.style.left = xy[1] + 'px';
       // }
 };
+
+
+// INSTAGRAM PULL
+// $(document).ready(function () {
+//   // $.when(getYoutube, getSecondInstagram,getMainInstagram, getPinterest, getPinterest2).done(function(youtube, instagram1, instagram2, pinterest) {
+//   //  $.fn.fullpage.reBuild();  
+//   // });  
+//   var token = '5160003.1677ed0.5752c8d2a5e54d04ae553320e1de3e79', // learn how to obtain it below
+//       userid = 16763727, // User ID - get it in source HTML of your Instagram profile or look at the next example :)
+//       num_photos = 20; // how much photos do you want to get
+   
+//   var main_insta_array = [];
+
+//   var getMainInstagram = $.ajax({
+//     url: 'https://api.instagram.com/v1/users/' + 'self' + '/media/recent', // or /users/self/media/recent for Sandbox
+//     dataType: 'jsonp',
+//     type: 'GET',
+//     data: {access_token: token, count: num_photos},
+//     success: function(data){
+//       console.log(data);
+//       for( x in data.data ){
+//         $image_url = data.data[x].images.standard_resolution.url;
+//         $link = data.data[x].link;
+//         $date = new Date(parseInt(data.data[x].created_time) * 1000);
+//         $date = ($date.getMonth()+1)+"/"+$date.getDate()+"/"+$date.getFullYear();
+//         main_insta_array.push('<div class="image_source_container"><div class="image-draggable-parent"><div class="image-draggable-container"><img class="instagram1-js" src="' + $image_url + '"/><div class="source-link"><a target="_blank" href="'+ $link + '">Insta ' + $date + '</a></div></div></div></div>');
+//         // console.log(data.data[x].images.standard_resolution.url);
+//         // $('ul').append('<li><img src="'+data.data[x].images.low_resolution.url+'"></li>'); // data.data[x].images.low_resolution.url - URL of image, 306х306
+//         // data.data[x].images.thumbnail.url - URL of image 150х150
+//         // data.data[x].images.standard_resolution.url - URL of image 612х612
+//         // data.data[x].link - Instagram post URL 
+//       }
+//       main_insta_array = prepSocialArray(main_insta_array);
+//       if (main_insta_array.length > 1) {
+//         var i = 0;
+//         $('.main-instagram').each(function(){
+//           $(this).html(main_insta_array[i]);
+//           i++;
+//         });
+//       }
+
+//     },
+//     error: function(data){
+//       console.log(data); // send the error notifications to console
+//     },
+//       complete: function (data) {
+//         makeDraggable(); 
+//         if($('body').hasClass('home')) {
+//           drawCanvasOnSplash('.main-instagram','glitch-canvas-main');
+//         }
+//     }
+//   });
+
+
+//GET POSITION
+  // function getpos(min, max) {
+  //   return Math.floor(Math.random() * (max - min) + min);
+  // }
+
 
 // If the container exists on this page then fetch the lastest posts
 // If this JS is only included on the required page then the function can be run without the if statement
