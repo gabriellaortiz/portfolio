@@ -76,7 +76,8 @@ p {
 
 .wrap {
 /*  border: 10px dotted red;
-*/  max-width: 800px;
+*/  
+  max-width: 1200px;
   margin: 0 auto;
 }
 
