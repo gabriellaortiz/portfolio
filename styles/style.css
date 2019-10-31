@@ -22,52 +22,6 @@ p {
   padding-bottom: 40px;
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-    overflow: hidden;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #000000;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  font-family: UniversStd;
-  font-size: 11px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  text-decoration: underline;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  text-decoration: underline;
-}
-
-/* Right-aligned section inside the top navigation */
-.topnav-right {
-  float: right;
-}
-.navbar_pad {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-.topnav a:first-child {
-  padding-left: 0px !important;
-}
-
-/*.topnav a:last-child {
-  padding-right: 0px !important;
-}*/
 
 /* Main content */
 .main {
