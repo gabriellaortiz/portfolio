@@ -1,0 +1,172 @@
+section.intro {
+  margin: auto;
+  width: 50%;
+}
+
+section.conclusion {
+  margin: auto;
+  width: 50%;
+}
+
+p {
+  max-width: 400px;
+}
+
+.row {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: UniversStd;
+  font-size: 11px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  text-decoration: underline;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  text-decoration: underline;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+.navbar_pad {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.topnav a:first-child {
+  padding-left: 0px !important;
+}
+
+/*.topnav a:last-child {
+  padding-right: 0px !important;
+}*/
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+.wrap {
+/*  border: 10px dotted red;
+*/  max-width: 800px;
+  margin: 0 auto;
+}
+
+.conclusion {
+  padding-bottom: 40px;
+}
+
+/*section {
+    border: 10px dotted green;
+    min-height: 300px;
+}*/
+
+.row {
+/*  border: 5px dotted orange;
+*/  display: flex;
+}
+
+.left, .right, .center {
+/*  border: 5px dotted purple;
+*/  flex: 1;
+}
+
+.left {
+  margin-right: 10px;
+}
+.right {
+  margin-left: 10px;
+}
+.center {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.img_post {
+  width: 20%;
+  padding: 20px;  
+/*  transform: rotate(random);
+*/}
+
+
+/*.image_box {
+  padding: 20px;  
+}*/
+
+/*.img_post:hover {
+  box-shadow: 4px 4px 6px rgba(0,0,0,.1);
+}
+
+
+.img_post ui-draggable ui-draggable-handle img {
+  transition: box-shadow .1s ease-out;
+}*/
+
+
+@font-face {
+  font-family: UniversStd;
+  src: url(../assets/UniversLTStd.otf);
+}
+@font-face {
+  font-family: UniversBold;
+  src: url(../assets/UniversLTStd-Bold.otf);
+}
+@font-face {
+  font-family: UniversLight;
+  src: url(../assets/UniversLTStd-Light.otf);
+}
+
+p {
+  font-family: UniversStd;
+  font-size: 11px;
+}
+
+h1 {
+  font-family: UniversBold;
+  font-size: 18px;
+}
+
+h2 {
+  font-family: UniversBold;
+  font-size: 14px;
+}
+
+a {
+  font-family: UniversStd;
+  font-size: 11px;
+}
+
+.caption {
+  font-family: UniversLight;
+  font-size: 9px;
+}
+
+.case-study {
+  width: 100%;
+}
+
+
+

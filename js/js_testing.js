@@ -62,6 +62,7 @@ var fetchLatestTumblrPost = function() {
 
       // Make individual images draggable
       $('.img_post').draggable({stack: "div"});
+      // document.getElementsByClassName(".img_post").style.transform.rotate(Math.random());
 
       // Here I'm substituting the tumblr audio player with audiojs
       // This section of code might(?) be able to be removed because of the new HTML5 audio player
