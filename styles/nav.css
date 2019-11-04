@@ -13,9 +13,8 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 14px;
   font-family: UniversStd;
-  font-size: 11px;
 }
 
 /* Change the color of links on hover */
@@ -40,40 +39,3 @@
 .navbar_pad {
   padding: 50px;
 }
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  width: 100%;
-  overflow: auto;
-/*  min-width: 160px;*/
-}
-
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-  text-decoration: underline;
-}
-
-
-
-
-
-

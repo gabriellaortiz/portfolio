@@ -29,51 +29,11 @@ section.conclusion {
   padding-bottom: 40px;
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-    overflow: hidden;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-}
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  font-family: UniversStd;
-  font-size: 11px;
+  color: #ffffff !important;
 }
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  text-decoration: underline;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  text-decoration: underline;
-}
-
-/* Right-aligned section inside the top navigation */
-.topnav-right {
-  float: right;
-}
-.navbar_pad {
-  padding: 50px;
-}
-
-.topnav a:first-child {
-  padding-left: 0px !important;
-}
-
-/*.topnav a:last-child {
-  padding-right: 0px !important;
-}*/
 
 /* Main content */
 .main {
@@ -153,32 +113,40 @@ section.conclusion {
 
 p {
   font-family: UniversStd;
-  font-size: 11px;
-  line-height: 1.5em;
+  font-size: 14px;
 }
 
 h1 {
   font-family: UniversBold;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 h2 {
   font-family: UniversBold;
-  font-size: 14px;
+  font-size: 18px;
 }
 
-a {
+p a {
   font-family: UniversStd;
-  font-size: 11px;
+  font-size: 14px;
 }
 
 .caption {
   font-family: UniversLight;
-  font-size: 9px;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.case-study {
+  width: 100%;
 }
 
 .inspo-image {
-  width: 40%;
+  width: 70%;
+}
+
+.work-image-small {
+  width: 70%;
 }
 
 .work-image {
@@ -198,6 +166,9 @@ a {
   margin-right: 0px;
 }
 
+h1, h2, p, a {
+  color: #ffffff !important;
+}
 
 
 
