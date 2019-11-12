@@ -1,6 +1,11 @@
 .img_post {
   position: absolute !important;
 }
+.img_post:hover {
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+        box-shadow: 1px 1px 5px #999;
+}
 
 .iteration-text {
   min-height: 210px;

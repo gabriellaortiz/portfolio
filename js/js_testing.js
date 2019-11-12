@@ -4,7 +4,7 @@
 var fetchLatestTumblrPost = function() {
 
   // Fetch the feed with Tumblr API v1
-  $.getJSON("https://gabriella-ortiz.tumblr.com/api/read/json?num=10&callback=?", function(data) {
+  $.getJSON("https://gabriella-ortiz.tumblr.com/api/read/json?num=20&callback=?", function(data) {
 
     // For each post in the returned data
     $.each(data.posts, function(i, posts) {
