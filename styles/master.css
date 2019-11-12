@@ -48,14 +48,17 @@ p {
 
 .left {
   margin-right: 10px;
-}
+/*  text-align: left;
+*/}
 .right {
   margin-left: 10px;
-}
+/*  text-align: right;
+*/}
 .center {
   margin-right: 10px;
   margin-left: 10px;
-}
+/*  text-align: center;
+*/}
 
 .img_post {
   width: 20%;
@@ -120,6 +123,10 @@ p a {
   width: 100%;
 }
 
+/*.image-row {
+  text-align: center;
+}
+*/
 .image-row, .image-row-right {
   padding-top: 20px;
   padding-bottom: 20px;
