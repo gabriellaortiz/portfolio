@@ -1,12 +1,3 @@
-.img_post {
-  position: absolute !important;
-}
-.img_post:hover {
-    -moz-box-shadow: 1px 1px 5px #999;
-    -webkit-box-shadow: 1px 1px 5px #999;
-        box-shadow: 1px 1px 5px #999;
-}
-
 .iteration-text {
   min-height: 210px;
 }
@@ -71,11 +62,14 @@ p {
 
 .img_post {
   width: 20%;
-  padding: 20px;  
-/*  transform: rotate(random);
+/*  padding: 20px;  
+*//*  transform: rotate(random);
 */}
-
-
+/*
+.image_post:hover {
+box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+*/
 @font-face {
   font-family: UniversStd;
   src: url(../assets/UniversLTStd.otf);

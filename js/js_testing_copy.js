@@ -58,7 +58,18 @@ var fetchLatestTumblrPost = function() {
           break;
       }
       // Append this post HTML to the container, can be any jQuery selector
-      $("#weblog").append(post);
+
+      let el = $(post);
+
+        var x = 1000;
+        var y = 1000;
+        var randomX = Math.floor(Math.random()*x) ;
+        var randomY = Math.floor(Math.random()*y) ;
+
+      el.css({position: 'absolute', top: randomX+'px', left: randomY+'px',});
+      console.log("el", el);
+      
+      $("#weblog").append(el);
 
       // Make individual images draggable
       $('.img_post').draggable({stack: "div"});
