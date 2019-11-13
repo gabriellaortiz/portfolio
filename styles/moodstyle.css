@@ -62,14 +62,9 @@ p {
 
 .img_post {
   width: 20%;
-/*  padding: 20px;  
-*//*  transform: rotate(random);
-*/}
-/*
-.image_post:hover {
-box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
-*/
+
+
 @font-face {
   font-family: UniversStd;
   src: url(../assets/UniversLTStd.otf);
@@ -108,6 +103,11 @@ p a {
   font-family: UniversLight;
   font-size: 11px;
   text-transform: uppercase;
+}
+
+.img_post img:hover {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 .case-study {

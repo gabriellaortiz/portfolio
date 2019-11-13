@@ -37,6 +37,12 @@ p {
   margin: 0 auto;
 }
 
+.weblog {
+  overflow: hidden; 
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .conclusion {
   padding-bottom: 40px;
 }
@@ -62,9 +68,11 @@ p {
 
 .img_post {
   width: 20%;
-  padding: 20px;  
-/*  transform: rotate(random);
-*/}
+}
+
+.img_post:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 
 @font-face {
