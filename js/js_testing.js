@@ -59,14 +59,30 @@ var fetchLatestTumblrPost = function() {
       }
       // Append this post HTML to the container, can be any jQuery selector
 
-      let el = $(post);
+      	let el = $(post);
 
-        // var x = $('.wrap').width();
-        // var y = $('.wrap').height();
+		// function randomIntFromInterval(min, max) { // min and max included 
+		//   return Math.floor(Math.random() * (max - min + 1) + min);
+		// }
+
+	    // var x = $('.wrap').width();
+     	// var y = $('.wrap').height();
+     	
+     	// var max_x = $('.wrap').width();
+     	// var max_y = $('.wrap').height();
+
         var x = 1000;
         var y = 1000;
         var randomX = Math.floor(Math.random()*x);
         var randomY = Math.floor(Math.random()*y);
+		
+		// var randomX = Math.floor(Math.random() * (x - 10 + 1) + 10);
+ 		// var randomY = Math.floor(Math.random() * (y - 10 + 1) + 10);
+
+
+
+		// var randomX = Math.floor(Math.random() * (max - min + 1) + min);
+        
 
       el.css({position: 'absolute', top: randomX+'px', left: randomY+'px',});
       console.log("el", el);
