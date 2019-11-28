@@ -17,9 +17,10 @@ ul.workList a:hover {
   list-style-type: none;
 }
 
-/* MAX HEIGHT DEPENDS ON WRAPPER LENGTH? */
+/* MAX HEIGHT DEPENDS ON WRAPPER LENGTH? WAS PREVIOUSLY 600*/
 div.workImages img {
   max-height: 600px;
+  max-width: 600px;
 }
 
 .iteration-text {
