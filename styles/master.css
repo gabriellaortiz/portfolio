@@ -1,3 +1,27 @@
+ul.workList {
+  padding-left: 0;
+}
+
+ul.workList a{
+  color: #000000;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: UniversStd;
+}
+
+ul.workList a:hover {
+  text-decoration: underline;
+}
+
+.workList {
+  list-style-type: none;
+}
+
+/* MAX HEIGHT DEPENDS ON WRAPPER LENGTH? */
+div.workImages img {
+  max-height: 600px;
+}
+
 .iteration-text {
   min-height: 210px;
 }

@@ -41,5 +41,11 @@
 	</div>
 </div>
 </body>
+<script type="text/javascript">
+  $(".workList a").hover(function() {
+  var s = $(this).data("img");
+  $(".workImages img").attr("src", s);
+});
+</script>
 <script>fetchLatestTumblrPost();</script>
 </html>
