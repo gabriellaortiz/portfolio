@@ -1,0 +1,79 @@
+#beginInfo {
+	text-align: center;
+}
+
+#container {
+	margin:auto;
+	width: 50%;
+	text-align: center;
+	padding: 200px 0;
+}
+
+#answerBox {
+	padding-right: 5px;
+}
+
+body h2{
+	font-family: 'Roboto Mono', monospace;
+	text-align: center;
+	display: block;
+
+}
+
+body p {
+    white-space: pre-wrap;
+	font-family: 'Roboto Mono', monospace;
+	text-align: left;
+	display: block;
+
+
+}
+
+button {
+	width: 50px;
+	background: white;
+	position: relative;
+	text-align: center;
+	border: 1px solid black;
+	padding: 5px 10px;
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+button:hover { 
+/*  background-color: black;
+  color: white;*/
+  text-decoration: underline;
+}
+
+.flex {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   flex-flow: row wrap;
+}
+
+#userAnswersP {
+	font-style: bold;
+	text-align: center;
+}
+
+#ipParagraph {
+	color: red;
+}
+
+
+
+#useranswer {
+	width: 250px;
+	padding: 5px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
