@@ -64,6 +64,9 @@ section.conclusion {
   width: 50%;
 }
 
+a.about-link:hover {
+  text-decoration: underline !important;
+}
 
 #about {
   font-family: UniversStd;
