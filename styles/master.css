@@ -1,3 +1,30 @@
+@media all and (max-width:800px)
+{
+    .row {
+      display: block !important;
+    }
+    div#workRight.right{
+      margin: 0 !important;
+
+    }
+    div.workImages img {
+      padding-top: 20px;
+      width: 250px; 
+  }
+  .navbar_pad {
+    padding: 10px;
+  }
+  section.image-row {
+    margin: auto;
+    width: 50%;
+  }
+
+  img.inspo-image {
+    width: 100%;
+  }
+}
+
+
 ul.workList {
   padding-left: 0;
 }
@@ -44,6 +71,8 @@ p {
   text-align: justify;
 }
 
+
+
 .row {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -79,12 +108,14 @@ p {
 
 .left {
   margin-right: 10px;
-/*  text-align: left;
-*/}
+}
 .right {
   margin-left: 10px;
-/*  text-align: right;
-*/}
+}
+.work-right {
+  margin-left: 10px;
+  flex: 1;
+}
 .center {
   margin-right: 10px;
   margin-left: 10px;
@@ -99,6 +130,9 @@ p {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+a:visited { 
+  color: black;
+}
 
 @font-face {
   font-family: UniversStd;
