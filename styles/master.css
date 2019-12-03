@@ -64,12 +64,13 @@ section.conclusion {
   width: 50%;
 }
 
-p {
-/*  max-width: 400px;
-*/  line-height: 1.5em;
+
+#about {
+  font-family: UniversStd;
+  font-size: 14px;
+  line-height: 1.5em;
   text-align: justify;
 }
-
 
 
 .row {
