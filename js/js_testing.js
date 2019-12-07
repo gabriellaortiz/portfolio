@@ -30,7 +30,7 @@ var fetchLatestTumblrPost = function() {
           // post = "<div class='image_box'> <img class='img_post' src='" + this["photo-url-1280"] + "'> </div>";
 
           // no div, just image blocks
-          post = "<img class='img_post' src='" + this["photo-url-1280"] + "'>";
+          post = "<img class='img_post-index' src='" + this["photo-url-1280"] + "'>";
 
           // post = "<a href=html/work.html target='_blank'><img class='img_post' src='" + this["photo-url-1280"] + "'></a>";
           // <a href="html/work.html" target="_blank">
@@ -92,9 +92,8 @@ var fetchLatestTumblrPost = function() {
       
       $("#weblog").append(el);
 
-      // Make individual images draggable
-      $('.img_post').draggable({stack: "div"});
-      // document.getElementsByClassName(".img_post").style.transform.rotate(Math.random());
+      // MAKE IMAGES DRAGGABLE
+      // $('.img_post-index').draggable({stack: "div"});
 
       // Here I'm substituting the tumblr audio player with audiojs
       // This section of code might(?) be able to be removed because of the new HTML5 audio player
