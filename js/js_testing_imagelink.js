@@ -30,9 +30,9 @@ var fetchLatestTumblrPost = function() {
           // post = "<div class='image_box'> <img class='img_post' src='" + this["photo-url-1280"] + "'> </div>";
 
           // no div, just image blocks
-          post = "<img class='img_post' src='" + this["photo-url-1280"] + "'>";
+          // post = "<img class='img_post' src='" + this["photo-url-1280"] + "'>";
 
-          // post = "<a href=html/work.html target='_blank'><img class='img_post' src='" + this["photo-url-1280"] + "'></a>";
+          post = "<a href=html/work.html target='_blank'><img class='img_post' src='" + this["photo-url-1280"] + "'></a>";
           // <a href="html/work.html" target="_blank">
           // post = "<a href='" + this["url-with-slug"] + "'><img src='" + this["photo-url-1280"] + "'></a>";
           // if (this["photo-caption"]) {

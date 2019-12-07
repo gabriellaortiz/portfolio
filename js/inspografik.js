@@ -6,7 +6,7 @@ var fetchLatestTumblrPost = function() {
   // Fetch the feed with Tumblr API v1
   // $.getJSON("https://gabriella-ortiz.tumblr.com/api/read/json?num=20&callback=?", function(data) {
 
-  $.getJSON("https://gortiz-portfolio.tumblr.com/api/read/json?num=20&callback=?", function(data) {
+  $.getJSON("https://inspografik.tumblr.com/api/read/json?num=20&callback=?", function(data) {
     // For each post in the returned data
     $.each(data.posts, function(i, posts) {
       var post = "", postElement;
@@ -32,7 +32,6 @@ var fetchLatestTumblrPost = function() {
           // no div, just image blocks
           post = "<img class='img_post' src='" + this["photo-url-1280"] + "'>";
 
-          // post = "<a href=html/work.html target='_blank'><img class='img_post' src='" + this["photo-url-1280"] + "'></a>";
           // <a href="html/work.html" target="_blank">
           // post = "<a href='" + this["url-with-slug"] + "'><img src='" + this["photo-url-1280"] + "'></a>";
           // if (this["photo-caption"]) {
