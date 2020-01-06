@@ -9,6 +9,18 @@ h1, h2, p, a {
 
 
 /* Style the links inside the navigation bar */
-.topnav a {
+#page-nav a {
   color: #ffffff !important;
 }
+
+
+
+#page-nav label {
+	background: #000000;
+	color: #ffffff;
+}
+
+
+ #page-nav ul li {
+    background: #000000;
+  }
