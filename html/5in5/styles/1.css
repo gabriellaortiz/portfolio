@@ -1,0 +1,76 @@
+html {
+	background: black;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: UniversLight;
+  src: url(../../../assets/UniversLTStd-Light.otf);
+}
+
+.caption {
+  font-family: UniversLight;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.bodytext {
+  font-family: UniversLight;
+  font-size: 14px;
+  color: white;
+}
+
+#div1 {
+	position: absolute;
+  left: 0px;
+  top: 40px;
+  z-index: -1;
+  width:1000px;
+  display:none;
+}
+
+#div2 {
+  position: absolute;
+  left: 1000px;
+  top: 0px;
+  z-index: -1;
+  width:800px;
+  display:none;
+}
+
+#div3 {
+  position: absolute;
+  right: 0px;
+  top: 300px;
+  z-index: -1;
+  width:500px;
+  display:none;
+}
+
+#div4 {
+  position: absolute;
+  left: 400px;
+  top: 250px;
+  z-index: -1;
+  width:800px;
+  display:none;
+}
+
+#div5 {
+  position: absolute;
+  height:150px;
+  width:300px;
+  left: 700px;
+  top: 150px;
+  z-index: -1;
+  width:300px;
+  display:none;
+  border:1px solid #fff;
+  font:16px/26px helvetica, helvetica, Serif;overflow:auto;
+  color:white;
+  padding-left: .5em;
+    display:none;
+}
+
+

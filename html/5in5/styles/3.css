@@ -1,0 +1,20 @@
+p {
+	color: white;
+	text-align: center;
+	font-family: roboto;
+}
+body {
+	background: black;
+}
+.center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+p .time {
+	font-family: roboto;
+	font-size: 11px;
+
+}
