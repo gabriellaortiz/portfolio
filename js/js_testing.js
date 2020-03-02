@@ -4,8 +4,9 @@
 var fetchLatestTumblrPost = function() {
 
   // Fetch the feed with Tumblr API v1
-  $.getJSON("https://gabriella-ortiz.tumblr.com/api/read/json?num=20&callback=?", function(data) {
+  // $.getJSON("https://gabriella-ortiz.tumblr.com/api/read/json?num=20&callback=?", function(data) {
 
+  $.getJSON("https://gortiz-portfolio.tumblr.com/api/read/json?num=20&callback=?", function(data) {
     // For each post in the returned data
     $.each(data.posts, function(i, posts) {
       var post = "", postElement;
@@ -29,8 +30,10 @@ var fetchLatestTumblrPost = function() {
           // post = "<div class='image_box'> <img class='img_post' src='" + this["photo-url-1280"] + "'> </div>";
 
           // no div, just image blocks
-          post = "<img class='img_post' src='" + this["photo-url-1280"] + "'>";
+          // post = "<img class='img_post-index' src='" + this["photo-url-1280"] + "'>";
 
+          post = "<a href=html/work.html><img class='img_post-index' src='" + this["photo-url-1280"] + "'></a>";
+          // <a href="html/work.html" target="_blank">
           // post = "<a href='" + this["url-with-slug"] + "'><img src='" + this["photo-url-1280"] + "'></a>";
           // if (this["photo-caption"]) {
           //   post += "<p>" + this["photo-caption"] + "</p>";
@@ -71,7 +74,7 @@ var fetchLatestTumblrPost = function() {
      	// var max_x = $('.wrap').width();
      	// var max_y = $('.wrap').height();
 
-        var x = 1000;
+        var x = 500;
         var y = 1000;
         var randomX = Math.floor(Math.random()*x);
         var randomY = Math.floor(Math.random()*y);
@@ -89,9 +92,8 @@ var fetchLatestTumblrPost = function() {
       
       $("#weblog").append(el);
 
-      // Make individual images draggable
-      $('.img_post').draggable({stack: "div"});
-      // document.getElementsByClassName(".img_post").style.transform.rotate(Math.random());
+      // MAKE IMAGES DRAGGABLE
+      // $('.img_post-index').draggable({stack: "div"});
 
       // Here I'm substituting the tumblr audio player with audiojs
       // This section of code might(?) be able to be removed because of the new HTML5 audio player

@@ -1,3 +1,5 @@
+
+
 @media all and (max-width:800px)
 {
     .row {
@@ -23,6 +25,7 @@
     width: 100%;
   }
 }
+
 
 ul.workList {
   padding-left: 0;
@@ -108,6 +111,20 @@ a.about-link:hover {
 /*  border: 5px dotted purple;
 */  flex: 1;
 }
+/*
+.left {
+  margin-right: 10px;
+  text-align: left;
+}
+.right {
+  margin-left: 10px;
+  text-align: right;
+}
+.center {
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: center;
+}*/
 
 .left {
   margin-right: 10px;
@@ -115,15 +132,21 @@ a.about-link:hover {
 .right {
   margin-left: 10px;
 }
+.center {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
 .work-right {
   margin-left: 10px;
   flex: 1;
 }
-.center {
-  margin-right: 10px;
-  margin-left: 10px;
-/*  text-align: center;
-*/}
+
+
+.img_post-index {
+  width: 40%;
+}
 
 .img_post {
   width: 20%;
@@ -169,6 +192,28 @@ h2 {
 p a {
   font-family: UniversStd;
   font-size: 14px;
+}
+
+
+.right-caption {
+  font-family: UniversLight;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.left-caption {
+  font-family: UniversLight;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.center-caption {
+  font-family: UniversLight;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .caption {
