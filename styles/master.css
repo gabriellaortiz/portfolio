@@ -223,6 +223,23 @@ p a {
   text-transform: uppercase;
 }
 
+.caption-bold {
+  font-family: UniversStd;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.caption-link {
+  font-family: UniversStd;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.caption-link:hover {
+  text-decoration: underline;
+}
+
 .case-study {
   width: 100%;
 }
