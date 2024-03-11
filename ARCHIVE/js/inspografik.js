@@ -77,7 +77,6 @@ var fetchLatestTumblrPost = function() {
         var y = 1000;
         var randomX = Math.floor(Math.random()*x);
         var randomY = Math.floor(Math.random()*y);
-
 		
 		// var randomX = Math.floor(Math.random() * (max_x - 100 + 1) + 100);
  	// 	var randomY = Math.floor(Math.random() * (max_y - 100 + 1) + 100);

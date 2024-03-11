@@ -1,0 +1,139 @@
+.iteration-text {
+  min-height: 210px;
+}
+
+section.intro {
+  margin: auto;
+  width: 50%;
+}
+
+section.conclusion {
+  margin: auto;
+  width: 50%;
+}
+
+p {
+  max-width: 400px;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+.row {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+.wrap {
+/*  border: 10px dotted red;
+*/  
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.conclusion {
+  padding-bottom: 40px;
+}
+
+/*section {
+    border: 10px dotted green;
+    min-height: 300px;
+}*/
+
+.row {
+/*  border: 5px dotted orange;
+*/  display: flex;
+}
+
+.left, .right, .center {
+/*  border: 5px dotted purple;
+*/  flex: 1;
+}
+
+.left {
+  margin-right: 10px;
+}
+.right {
+  margin-left: 10px;
+}
+.center {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.img_post {
+  width: 20%;
+  padding: 20px;  
+/*  transform: rotate(random);
+*/}
+
+
+/*.image_box {
+  padding: 20px;  
+}*/
+
+/*.img_post:hover {
+  box-shadow: 4px 4px 6px rgba(0,0,0,.1);
+}
+
+
+.img_post ui-draggable ui-draggable-handle img {
+  transition: box-shadow .1s ease-out;
+}*/
+
+
+@font-face {
+  font-family: UniversStd;
+  src: url(../assets/UniversLTStd.otf);
+}
+@font-face {
+  font-family: UniversBold;
+  src: url(../assets/UniversLTStd-Bold.otf);
+}
+@font-face {
+  font-family: UniversLight;
+  src: url(../assets/UniversLTStd-Light.otf);
+}
+
+p {
+  font-family: UniversStd;
+  font-size: 14px;
+  text-align: justify;
+}
+
+h1 {
+  font-family: UniversBold;
+  font-size: 24px;
+}
+
+h2 {
+  font-family: UniversBold;
+  font-size: 18px;
+}
+
+a {
+  font-family: UniversStd;
+  font-size: 14px;
+}
+
+.caption {
+  font-family: UniversLight;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.case-study {
+  width: 100%;
+}
+
+
+.right-small {
+
+}
+
+

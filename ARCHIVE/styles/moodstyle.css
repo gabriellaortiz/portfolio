@@ -1,0 +1,144 @@
+.iteration-text {
+  min-height: 210px;
+}
+
+section.intro {
+  margin: auto;
+  width: 50%;
+  text-align: justify;
+}
+
+section.conclusion {
+  margin: auto;
+  width: 50%;
+}
+
+p {
+/*  max-width: 400px;
+*/  line-height: 1.5em;
+  text-align: justify;
+}
+
+.row {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+.wrap {
+/*  border: 10px dotted red;
+*/  
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.conclusion {
+  padding-bottom: 40px;
+}
+
+.left, .right, .center {
+/*  border: 5px dotted purple;
+*/  flex: 1;
+}
+
+.left {
+  margin-right: 10px;
+/*  text-align: left;
+*/}
+.right {
+  margin-left: 10px;
+/*  text-align: right;
+*/}
+.center {
+  margin-right: 10px;
+  margin-left: 10px;
+/*  text-align: center;
+*/}
+
+.img_post {
+  width: 20%;
+}
+
+
+@font-face {
+  font-family: UniversStd;
+  src: url(../assets/UniversLTStd.otf);
+}
+@font-face {
+  font-family: UniversBold;
+  src: url(../assets/UniversLTStd-Bold.otf);
+}
+@font-face {
+  font-family: UniversLight;
+  src: url(../assets/UniversLTStd-Light.otf);
+}
+
+p {
+  font-family: UniversStd;
+  font-size: 14px;
+  text-align: justify;
+}
+
+h1 {
+  font-family: UniversBold;
+  font-size: 24px;
+}
+
+h2 {
+  font-family: UniversBold;
+  font-size: 18px;
+}
+
+p a {
+  font-family: UniversStd;
+  font-size: 14px;
+}
+
+.caption {
+  font-family: UniversLight;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.img_post img:hover {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.case-study {
+  width: 100%;
+}
+
+.inspo-image {
+  width: 70%;
+}
+
+.work-image-small {
+  width: 70%;
+}
+
+.work-image {
+  width: 100%;
+}
+
+/*.image-row {
+  text-align: center;
+}
+*/
+.image-row, .image-row-right {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.image-row-right {
+  text-align: right;
+}
+
+.align-right {
+  margin-right: 0px;
+}

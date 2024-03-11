@@ -1,0 +1,17 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1px 1px;
+  grid-template-areas: "inspografik inspografik studio studio" "team team services services" "contact contact services services";
+}
+
+.inspografik { grid-area: inspografik; }
+
+.studio { grid-area: studio; }
+
+.team { grid-area: team; }
+
+.contact { grid-area: contact; }
+
+.services { grid-area: services; }

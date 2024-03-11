@@ -1,27 +1,57 @@
-.iteration-text {
-  min-height: 210px;
+body {
+  display: grid;
+  height: 100vh;
+  margin: 0;
+  place-items: center center;
 }
 
-section.intro {
+.splash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0048FF;
+  width: 80%;
   margin: auto;
-  width: 50%;
+
 }
 
-section.conclusion {
+
+.inside {
   margin: auto;
-  width: 50%;
+  width: 80%;
 }
 
-p {
-  max-width: 400px;
-  line-height: 1.5em;
-  text-align: justify;
+@media all and (max-width:800px)
+{
+    .row {
+      display: block !important;
+    }
+    .right{
+      margin-left: 0 !important;
+
+    }
+    #services {
+      padding-top: 20px;
+    }
+    .left{
+      margin-right: 0 !important;
+    }
+
+    p {
+      font-size: 4vw !important;
+      line-height: 15% !important;
+
+    }
+    a {
+      font-size: 4vw !important;
+    }
+    h1 {
+      font-size: 6vw !important;
+      line-height: 1% !important;
 }
 
-.row {
-  padding-top: 40px;
-  padding-bottom: 40px;
 }
+
 
 
 /* Main content */
@@ -43,8 +73,8 @@ p {
 /*section {
     border: 10px dotted green;
     min-height: 300px;
-}*/
-
+}
+*/
 .row {
 /*  border: 5px dotted orange;
 */  display: flex;
@@ -66,26 +96,13 @@ p {
   margin-left: 10px;
 }
 
-.img_post {
-  width: 20%;
-  padding: 20px;  
-/*  transform: rotate(random);
-*/}
 
 
-/*.image_box {
-  padding: 20px;  
-}*/
 
-/*.img_post:hover {
-  box-shadow: 4px 4px 6px rgba(0,0,0,.1);
+@font-face {
+  font-family: inspografik;
+  src: url(../assets/FrankfurterStd.otf);
 }
-
-
-.img_post ui-draggable ui-draggable-handle img {
-  transition: box-shadow .1s ease-out;
-}*/
-
 
 @font-face {
   font-family: UniversStd;
@@ -100,15 +117,24 @@ p {
   src: url(../assets/UniversLTStd-Light.otf);
 }
 
+
 p {
-  font-family: UniversStd;
-  font-size: 14px;
+/*  font-family: UniversStd;
+  font-size: 2vw;
   text-align: justify;
+  line-height: 50%;*/
+text-transform: uppercase;
+  font-family: lores-12, sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 
 h1 {
-  font-family: UniversBold;
-  font-size: 24px;
+  font-family: inspografik;
+  color: #0048FF;
+  font-size: 4vw;
+  line-height: 50%;
+
 }
 
 h2 {
@@ -118,7 +144,10 @@ h2 {
 
 a {
   font-family: UniversStd;
-  font-size: 14px;
+  font-size: 2vw;
+  text-align: justify;
+  color: #0048FF;
+  text-decoration: none;
 }
 
 .caption {
@@ -127,13 +156,61 @@ a {
   text-transform: uppercase;
 }
 
-.case-study {
-  width: 100%;
+
+
+
+
+
+/* MAX HEIGHT DEPENDS ON WRAPPER LENGTH? WAS PREVIOUSLY 600*/
+div.workImages img {
+  max-height: 600px;
+  max-width: 600px;
+}
+
+.iteration-text {
+  min-height: 210px;
 }
 
 
-.right-small {
-
+a:hover {
+  text-decoration: underline !important;
 }
 
+
+
+
+.row {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+}
+
+
+.left, .right, .center {
+/*  border: 5px dotted purple;
+*/  flex: 1;
+}
+
+
+
+
+
+
+
+
+.img_post-index {
+  width: 40%;
+}
+
+.img_post {
+  width: 20%;
+}
+
+.img_post:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a:visited { 
+  color: #0048FF;
+}
 

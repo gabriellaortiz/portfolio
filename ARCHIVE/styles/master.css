@@ -76,6 +76,7 @@ a.about-link:hover {
   font-size: 14px;
   line-height: 1.5em;
   text-align: justify;
+  white-space: nowrap !important;
 }
 
 
@@ -220,6 +221,23 @@ p a {
   font-family: UniversLight;
   font-size: 11px;
   text-transform: uppercase;
+}
+
+.caption-bold {
+  font-family: UniversStd;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.caption-link {
+  font-family: UniversStd;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.caption-link:hover {
+  text-decoration: underline;
 }
 
 .case-study {
